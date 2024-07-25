@@ -631,7 +631,7 @@
             </div>
             <div class="instructor__wrapper">
               <button
-                class="instructor__arrow instructor__arrow--prev swiper-arrow swiper-button-prev"
+                class="instructor__arrow instructor__arrow--prev slider-arrow swiper-arrow swiper-button-prev"
                 type="button"
                 aria-label="Предыдущий слайд."
               >
@@ -639,7 +639,7 @@
                   <use href="/__spritemap#sprite-icon-arrow"></use>
                 </svg>
               </button>
-              <div class="instructor__slider swiper">
+              <div class="instructor__slider swiper" data-slider="instructor-slider">
                 <div class="instructor__inner swiper-wrapper">
                   <div class="instructor__slide instructor-slide swiper-slide" tabindex="0">
                     <div class="instructor-slide__img-container">
@@ -932,7 +932,7 @@
                 </div>
               </div>
               <button
-                class="instructor__arrow instructor__arrow--next swiper-arrow swiper-button-next"
+                class="instructor__arrow instructor__arrow--next slider-arrow slider-arrow--next swiper-arrow swiper-button-next"
                 type="button"
                 aria-label="Следующий слайд."
               >
@@ -1441,7 +1441,96 @@
         <div data-test="reviews">
           <section class="reviews">
             <div class="container">
-              <div class="reviews__wrapper">reviews</div>
+              <div class="reviews__wrapper">
+                <h3 class="reviews__title section-title section-title--dark">
+                  Отзывы
+                </h3>
+                <div class="reviews__inner">
+                  <button
+                    class="reviews__arrow reviews__arrow--prev slider-arrow swiper-arrow swiper-button-prev"
+                    type="button"
+                    aria-label="Предыдущий слайд."
+                  >
+                    <svg width="16" height="32">
+                      <use href="/__spritemap#sprite-icon-arrow"></use>
+                    </svg>
+                  </button>
+                  <div
+                    class="reviews__slider swiper"
+                    data-slider="reviews-slider"
+                  >
+                    <div class="reviews__container swiper-wrapper">
+                      <div class="reviews__slide review-slide swiper-slide">
+                        <div class="review-slide__content">
+                          <div class="review-slide__img">
+                            <picture>
+                              <source
+                                type="image/webp"
+                                srcset="
+                                  img/avatar.webp    1x,
+                                  img/avatar@2x.webp 2x
+                                "
+                              />
+                              <img
+                                width="80"
+                                height="80"
+                                src="img/avatar.png"
+                                srcset="img/avatar@2x.png 2x"
+                                alt="Анна Орлова"
+                              />
+                            </picture>
+                          </div>
+                          <b>Анна Орлова</b>
+                          <p>
+                            «Хожу в Supergym уже больше года. Нравится,
+                            что в клубе всегда чисто, тренажёры обновляют,
+                            персонал дружелюбный. Зал просторный,
+                            даже в вечернее время нет очередей»
+                          </p>
+                        </div>
+                      </div>
+                      <div class="reviews__slide review-slide swiper-slide">
+                        <div class="review-slide__content">
+                          <div class="review-slide__img">
+                            <picture>
+                              <source
+                                type="image/webp"
+                                srcset="
+                                  img/avatar.webp    1x,
+                                  img/avatar@2x.webp 2x
+                                "
+                              />
+                              <img
+                                width="80"
+                                height="80"
+                                src="img/avatar.png"
+                                srcset="img/avatar@2x.png 2x"
+                                alt="Анна Орлова"
+                              />
+                            </picture>
+                          </div>
+                          <b>Анна Орлова</b>
+                          <p>
+                            «Хожу в Supergym уже больше года. Нравится,
+                            что в клубе всегда чисто, тренажёры обновляют,
+                            персонал дружелюбный. Зал просторный,
+                            даже в вечернее время нет очередей»
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="reviews__arrow reviews__arrow--next slider-arrow slider-arrow--next swiper-arrow swiper-button-next"
+                    type="button"
+                    aria-label="Следующий слайд."
+                  >
+                    <svg width="16" height="32">
+                      <use href="/__spritemap#sprite-icon-arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </section>
         </div>
