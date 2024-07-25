@@ -17,7 +17,7 @@ module.exports = async (page, scenario, vp) => {
     });
   }, scenario);
 
-  const [prev, next] = await page.$$(`[data-test="juri"] button`);
+  const [prev, next] = await page.$$(`[data-test="instructor"] button`);
   await next.click();
   await page.waitForTimeout(scenario.delay || 0);
 };

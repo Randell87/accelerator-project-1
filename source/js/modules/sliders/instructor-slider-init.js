@@ -1,18 +1,18 @@
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
-const juriSliderInit = () => {
-  if (document.querySelector('[data-slider="juri-slider"]')) {
-    const juriSlider = document.querySelector('[data-slider="juri-slider"]');
-    new Swiper(juriSlider, {
+const instructorSliderInit = () => {
+  if (document.querySelector('[data-slider="instructor-slider"]')) {
+    const instructorSlider = document.querySelector('[data-slider="instructor-slider"]');
+    new Swiper(instructorSlider, {
       modules: [Navigation],
       grabCursor: false,
       watchOverflow: true,
       speed: 500,
       loop: true,
       navigation: {
-        nextEl: '.juri__arrow--next',
-        prevEl: '.juri__arrow--prev',
+        nextEl: '.instructor__arrow--next',
+        prevEl: '.instructor__arrow--prev',
       },
       breakpoints: {
         320: {
@@ -34,4 +34,4 @@ const juriSliderInit = () => {
   }
 };
 
-export { juriSliderInit };
+export { instructorSliderInit };

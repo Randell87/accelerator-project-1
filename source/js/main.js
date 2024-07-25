@@ -3,8 +3,8 @@ import {
   setActivePriceCard,
 } from '../js/modules/tabs/init-price-tabs';
 import { initFaqTabs } from '../js/modules/tabs/init-faq-tabs';
-import { setActiveJuriSlideInfo, lazyLoadImages } from '../js/modules/utils/utils';
-import { juriSliderInit } from '../js/modules/sliders/juri-slider-init';
+import { setActiveinstructorSlideInfo, lazyLoadImages } from '../js/modules/utils/utils';
+import { instructorSliderInit } from '../js/modules/sliders/instructor-slider-init';
 import { reviewsSliderInit } from '../js/modules/sliders/reviews-slider-init';
 import { play } from '../js/modules/video-player';
 import { initFaqAccordions } from '../js/modules/accordions/faq-accordion';
@@ -17,8 +17,8 @@ window.addEventListener('DOMContentLoaded', () => {
     play();
     initPriceTabs();
     setActivePriceCard();
-    juriSliderInit();
-    setActiveJuriSlideInfo();
+    instructorSliderInit();
+    setActiveinstructorSlideInfo();
     initFaqTabs();
     initFaqAccordions();
     reviewsSliderInit();

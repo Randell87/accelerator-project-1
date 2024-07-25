@@ -1,9 +1,9 @@
-const setActiveJuriSlideInfo = () => {
+const setActiveinstructorSlideInfo = () => {
   if (
-    document.querySelector('.juri__inner') &&
-    document.querySelector('.juri-slide')
+    document.querySelector('.instructor__inner') &&
+    document.querySelector('.instructor-slide')
   ) {
-    const slides = document.querySelectorAll('.juri-slide');
+    const slides = document.querySelectorAll('.instructor-slide');
 
     slides.forEach((slide) => {
       slide.addEventListener('focus', () => {
@@ -56,4 +56,4 @@ const lazyLoadImages = () => {
   }
 };
 
-export { setActiveJuriSlideInfo, lazyLoadImages };
+export { setActiveinstructorSlideInfo, lazyLoadImages };

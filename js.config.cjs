@@ -28,22 +28,22 @@ module.exports = {
       delay: 500
     },
     {
-      "label": "juri-prev",
+      "label": "instructor-prev",
       "url": "http://localhost:3000/index.html",
       "referenceUrl": "./figma/index.html",
-      selectors: [`[data-test="juri"]`],
+      selectors: [`[data-test="instructor"]`],
       misMatchThreshold: 0.5,
-      "onReadyScript": "juri-prev-click.cjs",
+      "onReadyScript": "instructor-prev-click.cjs",
       requireSameDimensions: true,
       delay: 500
     },
     {
-      "label": "juri-next",
+      "label": "instructor-next",
       "url": "http://localhost:3000/index.html",
       "referenceUrl": "./figma/index.html",
-      selectors: [`[data-test="juri"]`],
+      selectors: [`[data-test="instructor"]`],
       misMatchThreshold: 0.5,
-      "onReadyScript": "juri-next-click.cjs",
+      "onReadyScript": "instructor-next-click.cjs",
       requireSameDimensions: true,
       delay: 500
     },
