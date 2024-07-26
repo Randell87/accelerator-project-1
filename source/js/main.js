@@ -3,7 +3,7 @@ import {
   setActivePriceCard,
 } from '../js/modules/tabs/init-price-tabs';
 import { initFaqTabs } from '../js/modules/tabs/init-faq-tabs';
-import { setActiveInstructorSlideInfo, lazyLoadImages } from '../js/modules/utils/utils';
+import { setActiveinstructorSlideInfo, lazyLoadImages } from '../js/modules/utils/utils';
 import { instructorSliderInit } from '../js/modules/sliders/instructor-slider-init';
 import { reviewsSliderInit } from '../js/modules/sliders/reviews-slider-init';
 import { play } from '../js/modules/video-player';
@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
     initPriceTabs();
     setActivePriceCard();
     instructorSliderInit();
-    setActiveInstructorSlideInfo();
+    setActiveinstructorSlideInfo();
     initFaqTabs();
     initFaqAccordions();
     reviewsSliderInit();
