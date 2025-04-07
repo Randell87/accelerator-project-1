@@ -1,4 +1,4 @@
-import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer";
 import VitePluginSvgSpritemap from "@spiriit/vite-plugin-svg-spritemap";
 // import { ViteMinifyPlugin } from 'vite-plugin-minify';
 
