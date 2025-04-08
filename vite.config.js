@@ -63,10 +63,11 @@ export default {
   publicDir: "public",
   root: "./source",
   build: {
-    outDir: "../dist",
+    outDir: 'dist',
   },
   base: '/accelerator-project-1/',
   server: {
     port: 3000,
+    open: true,
   },
 };
