@@ -1,5 +1,5 @@
-import { ViteImageOptimizer } from 'vite-plugin-image-optimizer";
-import VitePluginSvgSpritemap from "@spiriit/vite-plugin-svg-spritemap";
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+import VitePluginSvgSpritemap from '@spiriit/vite-plugin-svg-spritemap';
 // import { ViteMinifyPlugin } from 'vite-plugin-minify';
 
 /** @type {import('vite').UserConfig} */
@@ -65,7 +65,7 @@ export default {
   build: {
     outDir: "../dist",
   },
-  base: "./",
+  base: '/accelerator-project-1/',
   server: {
     port: 3000,
   },
